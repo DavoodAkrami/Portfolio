@@ -25,9 +25,45 @@ You can view the live version of this portfolio at: [https://davoodakrami.github
 
 ### Prerequisites
 
-- Node.js (v14 or higher)
-- npm (v6 or higher)
+- Node.js (version 14 or higher)
+- npm (comes with Node.js)
 
 ### Installation
 
 1. Clone the repository:
+```bash
+git clone https://github.com/DavoodAkrami/Portfilio.git
+```
+
+2. Navigate to the project directory:
+```bash
+cd Portfilio
+```
+
+3. Install dependencies:
+```bash
+npm install
+```
+
+### Running the Project
+
+1. Start the development server:
+```bash
+npm run dev
+```
+
+2. Open your browser and visit:
+```
+http://localhost:5173
+```
+
+### Building for Production
+
+To create a production build:
+```bash
+npm run build
+```
+
+The build files will be generated in the `dist` directory.
+
+
