@@ -42,6 +42,7 @@ h3 {
 
 .navigation div {
     cursor: pointer;
+    max-width: 85px;
 }
 
 .navigation div:hover {
