@@ -13,7 +13,7 @@ const Header = () => {
         <div className={styles.root}>
             <div className={styles.container}>
                 <div className={styles.name} onClick={() => scrollToSection('home')}>
-                    Davood Akrami
+                    <img src="https://i.ibb.co/WpG7WkrZ/5ba44c5d-fa62-4b08-b73e-b509c3cef93e-removebg-preview.png" alt="Davood Akrami" />
                 </div>
                 
                 <div className={styles.navigation}>
