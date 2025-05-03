@@ -2,12 +2,15 @@ import styles from "./Contact.module.css";
 import { InstagramIcon, TelegramIcon, LinkedinIcon, GithubIcon } from "../Icons/Icons";
 import DavoodData from "../../data/DavoodData";
 
+
+
 const Contact = () => {
+
     return (
         <div className={styles.root}>
             <div className={styles.container}>
             <h2>Contact With Me</h2>
-                <div className={styles.contactInfo}>
+                <div className={styles.contactInfo} >
                     <div className={styles.linkedin} onClick={() => window.open(DavoodData.linkedin, "_blank")}>
                         <LinkedinIcon size="50px" className={styles.LinkedinIcon}/>
                         <h4>Linkedin</h4>
@@ -36,5 +39,10 @@ const Contact = () => {
         </div>
     )
 }
+
+
+
+
+
 
 export default Contact;

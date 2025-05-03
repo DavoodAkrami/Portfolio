@@ -1,6 +1,10 @@
 import styles from './Title.module.css';
+import DavoodData from '../../data/DavoodData';
 
-const Title = ({resume}) => {
+
+
+const Title = () => {
+
     return (
         <div className={styles.root}>
             <div className={styles.container}>
@@ -11,7 +15,7 @@ const Title = ({resume}) => {
                     Junior Frontend Developer
                 </div>
                 <div className={styles.resume}>
-                    <a href={resume} target="_blank" rel="noopener noreferrer">View Resume</a>
+                    <a href={DavoodData.resume} target="_blank" rel="noopener noreferrer">View Resume</a>
                 </div>
             </div>
         </div>

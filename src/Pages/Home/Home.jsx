@@ -14,7 +14,7 @@ const Home = () => {
             <div className={styles.container}>
                 <Header />
                 <div id="home">
-                    <Title resume={DavoodData.resume} />
+                    <Title/>
                 </div>
                 <div id="about">
                     <About />
