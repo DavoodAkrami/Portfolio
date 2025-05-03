@@ -13,8 +13,6 @@
     gap: 1.5rem;
 }
 
-
-
 .Name_Job {
     display: flex;
     flex-direction: column;
@@ -80,7 +78,7 @@ h3 {
 }
 
 .telegramIcon,
-.linkedinIcon{
+.linkedinIcon {
     border-radius: 6px;
 }
 
@@ -94,8 +92,100 @@ hr {
     border-color: rgba(255, 255, 255, 0.1);
 }
 
+@media (max-width: 1024px) {
+    .root {
+        max-width: 1024px;
+        font-size: 12px;
+    }
+
+    .container {
+        width: 80%;
+        gap: 1.2rem;
+        font-size: 12px;
+    }
 
 
+}
 
+@media (max-width: 768px) {
+    .container {
+        gap: 2rem;
+        padding: 30px 0;
+    }
+
+    .name {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 620px) {
+    .root {
+        max-width: 620px;
+        font-size: 8px;
+    }
+    .container {
+        gap: 2rem;
+        font-size: 8px;
+    }
+
+    .linkedinIcon,
+    .instagramIcon,
+    .telegramIcon,
+    .githubIcon {
+        scale: 0.8;
+    }
+    .socialIcons {
+        gap: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    .root {
+        max-width: 480px;
+        font-size: 4px;
+    }
+    .container {
+        gap: 1.5rem;
+        padding: 40px 0;
+    }
+
+    .name {
+        font-size: 1rem;
+    }
+
+    .socialIcons {
+        justify-content: center;
+    }
+
+    .navigation div {
+        max-width: 100%;
+    }
+
+    .linkedinIcon,
+    .instagramIcon,
+    .telegramIcon,
+    .githubIcon {
+        scale: 0.6;
+    }
+
+    .socialIcons {
+        gap: 1px;
+    }
+
+}
+
+@media (max-width: 380px) {
+    .root {
+        max-width: 380px;
+        font-size: 3px;
+    }
+    .container {
+        width: 95%;
+    }
+
+    .name {
+        font-size: 0.8rem;
+    }
+}
 
 

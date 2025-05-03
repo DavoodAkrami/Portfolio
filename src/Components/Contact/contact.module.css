@@ -45,8 +45,12 @@ h2 {
 }
 
 .LinkedinIcon,
-.TelegramIcon {
+.TelegramIcon,
+.GithubIcon,
+.InstagramIcon {
     border-radius: 10px;
+    min-width: 50px;
+    min-height: 50px;
 }
 
 .email {
@@ -56,6 +60,111 @@ h2 {
 
 .email a {
     color: #000;
+}
+
+@media (max-width: 768px) {
+    .root {
+        max-width: 768px;
+    }
+    .container {
+        width: 80%;
+        padding: 20px 0;
+    }
+
+    .contactInfo {
+        gap: 15px;
+        margin-top: 40px;
+    }
+
+    .contactInfo div {
+        width: 150px;
+        height: 150px;
+        padding: 15px;
+        font-size: 14px;
+    }
+
+    .LinkedinIcon,
+    .TelegramIcon,
+    .GithubIcon,
+    .InstagramIcon {
+        min-width: 40px;
+        min-height: 40px;
+        border-radius: 10px;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .root {
+        max-width: 480px;
+    }
+    .container {
+        width: 85%;
+        padding: 15px 0;
+    }
+
+    .contactInfo {
+        gap: 12px;
+        margin-top: 30px;
+    }
+
+    .contactInfo div {
+        width: 125px;
+        height: 125px;
+        padding: 12px;
+        font-size: 11px;
+    }
+
+    .LinkedinIcon,
+    .TelegramIcon,
+    .GithubIcon,
+    .InstagramIcon {
+        min-width: 35px;
+        min-height: 35px;
+        border-radius: 10px;
+    }
+
+    h2 {
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 380px) {
+    .root {
+        max-width: 380px;
+    }
+    .container {
+        width: 85%;
+        padding: 10px 0;
+    }
+
+    .contactInfo {
+        gap: 10px;
+        margin-top: 25px;
+    }
+
+    .contactInfo div {
+        width: 100px;
+        height: 100px;
+        padding: 10px;
+        font-size: 9px;
+    }
+
+    .LinkedinIcon,
+    .TelegramIcon,
+    .GithubIcon,
+    .InstagramIcon {
+        min-width: 30px;
+        min-height: 30px;
+        border-radius: 15px;
+    }
+
+    h2 {
+        font-size: 1.4rem;
+    }
 }
 
 

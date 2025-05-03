@@ -12,18 +12,9 @@
     align-items: center;
 }
 
-
-@media (max-width: 768px) {
-    .aboutMe, .photo {
-        animation: fadeInUp 1s ease-out forwards;
-    }
-}
-
-
 .aboutMe h2{
     font-size: 2rem;
     font-weight: 540;
-
 }
 
 .aboutMe p{
@@ -44,6 +35,63 @@
 @media (max-width: 768px) {
     .container{
         flex-direction: column;
+        gap: 40px;
+        width: 90%;
+    }
+    
+    .aboutMe, .photo {
+        animation: fadeInUp 1s ease-out forwards;
+    }
+
+    .photo img {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@media (max-width: 480px) {
+    .root {
+        max-width: 480px;
+    }
+    .container {
+        width: 85%;
+        gap: 30px;
+    }
+
+    .aboutMe h2 {
+        font-size: 1.8rem;
+    }
+
+    .aboutMe p {
+        font-size: 16px;
+    }
+
+    .photo img {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media (max-width: 380px) {
+    .root {
+        max-width: 380px;
+    }
+    .container {
+        width: 85%;
+        padding: 20px;
+    }
+
+    .aboutMe h2 {
+        font-size: 1.6rem;
+    }
+
+    .aboutMe p {
+        font-size: 15px;
+    }
+
+    .photo img {
+        width: 250px;
+        height: 250px;
     }
 }
 

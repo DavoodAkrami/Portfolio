@@ -49,5 +49,59 @@
     transition: all 0.3s ease;
 }
 
+@media (max-width: 768px) {
+    .container {
+        height: 70vh;
+    }
+    
+    .name {
+        font-size: 40px;
+    }
+    
+    .jobTitle {
+        font-size: 16px;
+    }
+    
+    .resume a {
+        font-size: 14px;
+        padding: 7px 18px;
+    }
+}
 
+@media (max-width: 480px) {
+    .container {
+        height: 60vh;
+    }
+    
+    .name {
+        font-size: 32px;
+    }
+    
+    .jobTitle {
+        font-size: 14px;
+    }
+    
+    .resume a {
+        font-size: 12px;
+        padding: 6px 16px;
+    }
+}
 
+@media (max-width: 380px) {
+    .container {
+        height: 50vh;
+    }
+    
+    .name {
+        font-size: 28px;
+    }
+    
+    .jobTitle {
+        font-size: 12px;
+    }
+    
+    .resume a {
+        font-size: 11px;
+        padding: 5px 14px;
+    }
+}

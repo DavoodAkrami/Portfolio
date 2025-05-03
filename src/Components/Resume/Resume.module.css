@@ -103,7 +103,84 @@
     color: rgba(0, 0, 0, 0.5);
 }
 
+@media (max-width: 768px) {
+    .root {
+        max-width: 768px;
+    }
 
+    .resumeDownload {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .resumeDownload h2 {
+        font-size: 1.8rem;
+    }
+
+    .resume {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skills, .experience {
+        width: 80%;
+        min-width: 80%;
+    }
+
+    .resume h3 {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .root {
+        padding: 1.5rem 0;
+    }
+
+    .resumeDownload h2 {
+        font-size: 1.6rem;
+    }
+
+    .resumeDownload a {
+        font-size: 14px;
+        padding: 6px 15px;
+    }
+
+    .skills, .experience {
+        width: 85%;
+        min-width: 85%;
+    }
+
+    .resume h3 {
+        font-size: 1.2rem;
+    }
+
+    .skill {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 380px) {
+    .root {
+        padding: 1rem 0;
+    }
+
+    .resumeDownload h2 {
+        font-size: 1.4rem;
+    }
+    .resumeDownload a {
+        font-size: 12px;
+        padding: 5px 12px;
+    }
+
+    .resume h3 {
+        font-size: 1.1rem;
+    }
+
+    .skill {
+        font-size: 12px;
+    }
+}
 
 
 
