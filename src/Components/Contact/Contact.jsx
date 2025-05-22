@@ -1,5 +1,5 @@
-import styles from "./Contact.module.css";
 import { InstagramIcon, TelegramIcon, LinkedinIcon, GithubIcon } from "../Icons/Icons";
+import styles from "./contact.module.css";
 import DavoodData from "../../data/DavoodData";
 
 
