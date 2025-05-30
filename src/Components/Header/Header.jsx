@@ -21,6 +21,7 @@ const Header = () => {
                     <div onClick={() => scrollToSection('about')}>About</div>
                     <div onClick={() => scrollToSection('contact')}>Contact</div>
                     <div onClick={() => scrollToSection('resume')}>Resume</div>
+                    <div onClick={() => scrollToSection('projects')}>Projects</div>
                     <div onClick={() => scrollToSection('feedback')}>Feedback</div>
                 </div>
             </div>

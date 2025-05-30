@@ -7,6 +7,7 @@ import Contact from '../../Components/Contact/Contact';
 import Resume from '../../Components/Resume/Resume';
 import Feedback from '../../Components/Feedback/Feedback';
 import Footer from '../../Components/Footer/Footer';
+import Projects from '../../Components/Projects/Projects';
 
 const Home = () => {
     return (
@@ -24,6 +25,9 @@ const Home = () => {
                 </div>
                 <div id="resume">
                     <Resume />
+                </div>
+                <div id="projects">
+                    <Projects />
                 </div>
                 <div id="feedback">
                     <Feedback />

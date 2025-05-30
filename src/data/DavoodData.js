@@ -10,6 +10,7 @@ const DavoodData = {
     github: "https://github.com/DavoodAkrami",
     instagram: "https://www.instagram.com/davood_akramii/",
     telegram: "https://t.me/Davood_Akrami",
+    
     skills: [
         { name: "HTML" },
         { name: "CSS" },
