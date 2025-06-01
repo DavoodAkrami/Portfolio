@@ -12,6 +12,13 @@ const ProjectsData = [
         description: "An online E-commers book shop and educationan",
         url: "https://book-shop-black-seven.vercel.app/",
         technologies: ["Vite", "React", "CSS modules"]
+    },
+    {
+        id: 3,
+        title: "BookMarks",
+        description: "A modern, web application for managing your bookmarks with a clean, macOS-inspired design",
+        url: "https://book-marks-nine.vercel.app/",
+        technologies: ["Vite", "React", "CSS modules"]
     }
 ] 
 
