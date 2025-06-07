@@ -8,33 +8,67 @@ import Resume from '../../Components/Resume/Resume';
 import Feedback from '../../Components/Feedback/Feedback';
 import Footer from '../../Components/Footer/Footer';
 import Projects from '../../Components/Projects/Projects';
+import { useState, useEffect } from 'react';
 
 const Home = () => {
+    const [activeSection, setActiveSection] = useState('home');
+
+    useEffect(() => {
+        const observerOptions = {
+            root: null, 
+            rootMargin: '-50% 0px', 
+            threshold: 0
+        };
+
+        const handleIntersect = (entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    setActiveSection(entry.target.id);
+                }
+            });
+        };
+
+        const observer = new IntersectionObserver(handleIntersect, observerOptions);
+        const sections = document.querySelectorAll('section');
+
+        sections.forEach(section => {
+            observer.observe(section);
+        });
+
+        return () => {
+            sections.forEach(section => {
+                observer.unobserve(section);
+            });
+        };
+    }, []);
+
     return (
         <div className={styles.root}>
             <div className={styles.container}>
-                <Header />
-                <div id="home">
+                <div className={styles.header}>
+                    <Header activeSection={activeSection}/>
+                </div>
+                <section id="home">
                     <Title/>
-                </div>
-                <div id="about">
+                </section>
+                <section id="about">
                     <About />
-                </div>
-                <div id="contact">
+                </section>
+                <section id="contact">
                     <Contact />
-                </div>
-                <div id="resume">
+                </section>
+                <section id="resume">
                     <Resume />
-                </div>
-                <div id="projects">
+                </section>
+                <section id="projects">
                     <Projects />
-                </div>
-                <div id="feedback">
+                </section>
+                <section id="feedback">
                     <Feedback />
-                </div>
-                <div id="footer">
+                </section>
+                <section id="footer">
                     <Footer />
-                </div>
+                </section>
             </div>
         </div>
     )
