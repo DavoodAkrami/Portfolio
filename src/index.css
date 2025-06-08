@@ -15,5 +15,7 @@ html, body {
 
 :root {
     font-family: 'Poppins', sans-serif;
+
+    --header-color: #2d3748;
 }
 

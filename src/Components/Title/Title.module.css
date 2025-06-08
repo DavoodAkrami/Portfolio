@@ -16,12 +16,14 @@
 .name {
     font-size: 48px;
     font-weight: 550;
+    color: var(--header-color);
 }
 
 .jobTitle {
     font-size: 18px;
     color: rgba(0, 0, 0, 0.7);
     font-weight: 530;
+    align-items: center;
 }
 
 .resume a{

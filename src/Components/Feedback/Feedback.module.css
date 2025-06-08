@@ -15,7 +15,7 @@ h2 {
     margin-bottom: 30px;
     font-size: 2rem;
     font-weight: 540;
-    color: #333;
+    color: var(--header-color);
 }
 
 .form {
@@ -61,8 +61,8 @@ input:focus, textarea:focus {
 
 .submitButton:hover {
     background-color: #333;
-    transform: scale(1.05);
-    transition: all 0.3s ease;
+    transform: scale(1.03);
+    transition: all 0.4s ease;
 }
 
 .submitButton:active {

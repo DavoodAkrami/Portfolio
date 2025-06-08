@@ -15,7 +15,7 @@ const Resume = () => {
                         <div className={styles.skillsList}>
                             {DavoodData.skills.map((skill, index) => (
                                 <div key={index} className={styles.skill}>
-                                    <span>{skill.name}</span>
+                                    <div>{skill.name}</div>
                                 </div>
                             ))}
                         </div>

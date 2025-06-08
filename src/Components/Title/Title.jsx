@@ -12,7 +12,7 @@ const Title = () => {
                     Davood Akrami
                 </div>
                 <div className={styles.jobTitle}>
-                    Junior Frontend Developer
+                    {DavoodData.jobTitle}
                 </div>
                 <div className={styles.resume}>
                     <a href={DavoodData.resume} target="_blank" rel="noopener noreferrer">View Resume</a>
