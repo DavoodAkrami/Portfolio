@@ -19,6 +19,13 @@ const ProjectsData = [
         description: "A modern, web application for managing your bookmarks with a clean, macOS-inspired design",
         url: "https://book-marks-nine.vercel.app/",
         technologies: ["Vite", "React", "CSS modules"]
+    },
+    {
+        id: 4,
+        title: "Naghz",
+        description: "Naghz is a smart learning assistant that helps users build essential life and soft skills through real-time, interactive guidance.",
+        url: "https://naghz.vercel.app/",
+        technologies: ["vite", "React", "CSS modules", "React Router DOM"]
     }
 ] 
 

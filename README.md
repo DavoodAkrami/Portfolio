@@ -4,7 +4,7 @@ A modern, responsive portfolio website built with React.js to showcase my profes
 
 ## Live Demo
 
-You can view the live version of this portfolio at: [https://davoodakrami.github.io/Portfolio/](https://davoodakrami.github.io/Portfolio/)
+You can view the live version of this portfolio at: [https://portfolio-one-azure-17.vercel.app/](https://portfolio-one-azure-17.vercel.app/)
 
 ## Features
 

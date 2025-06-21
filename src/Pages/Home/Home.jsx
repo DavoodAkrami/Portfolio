@@ -11,7 +11,7 @@ import Projects from '../../Components/Projects/Projects';
 import { useState, useEffect } from 'react';
 
 const Home = () => {
-    const [activeSection, setActiveSection] = useState('home');
+    const [activeSection, setActiveSection] = useState('');
 
     useEffect(() => {
         const observerOptions = {
