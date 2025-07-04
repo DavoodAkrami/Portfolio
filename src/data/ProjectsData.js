@@ -3,7 +3,7 @@ const ProjectsData = [
         id: 1,
         title: "E-commerce",
         description: "This project is an e-commerce website built with React. It is designed to serve as a portfolio project",
-        url: "https://e-commerce-kappa-seven-92.vercel.app/",
+        url: "https://e-commerce-eta-gray-71.vercel.app/",
         technologies: [ "React", "CSS modules", "React Router Dom"] 
     },
     {
