@@ -48,6 +48,7 @@ const Home = () => {
                 <div className={styles.header}>
                     <Header activeSection={activeSection}/>
                 </div>
+                <div className={styles.mainContent}>
                 <section id="home">
                     <Title/>
                 </section>
@@ -70,6 +71,7 @@ const Home = () => {
                     <Footer />
                 </section>
             </div>
+        </div>
         </div>
     )
 }

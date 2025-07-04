@@ -2,14 +2,16 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
-    z-index: 100;
-    background-color: white;
-    box-shadow:0 4px 15px rgba(0, 0, 0, 0.15); 
+    width: 100vw;
+    height: 60px;
+    z-index: 9999;
+    background: white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
 }
 
 .mainContent {
-    padding-top: 80px; 
+    margin-top: 80px; 
     width: 100%;
     z-index: 1;
 }
